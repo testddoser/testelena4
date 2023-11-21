@@ -22972,6 +22972,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.video.prototype.acts.Play,
 	cr.plugins_.video.prototype.cnds.HasEnded,
 	cr.system_object.prototype.acts.SetVar,
-	cr.system_object.prototype.cnds.CompareVar
+	cr.system_object.prototype.cnds.CompareVar,
+	cr.plugins_.Text.prototype.acts.SetVisible
 ];};
 
