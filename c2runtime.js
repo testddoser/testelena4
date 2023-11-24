@@ -23233,14 +23233,11 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.plugins_.WebStorage.prototype.acts.StoreLocal,
-	cr.system_object.prototype.cnds.EveryTick,
-	cr.system_object.prototype.exps["int"],
-	cr.plugins_.WebStorage.prototype.exps.LocalValue,
-	cr.plugins_.Sprite.prototype.acts.SetBoolInstanceVar,
 	cr.plugins_.video.prototype.acts.Play,
 	cr.plugins_.video.prototype.cnds.HasEnded,
 	cr.system_object.prototype.acts.SetVar,
 	cr.system_object.prototype.cnds.CompareVar,
+	cr.plugins_.WebStorage.prototype.cnds.CompareKeyNumber,
 	cr.plugins_.Text.prototype.acts.SetVisible
 ];};
 
