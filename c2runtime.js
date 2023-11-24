@@ -23238,6 +23238,8 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetVar,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.WebStorage.prototype.cnds.CompareKeyNumber,
-	cr.plugins_.Text.prototype.acts.SetVisible
+	cr.plugins_.Text.prototype.acts.SetVisible,
+	cr.plugins_.WebStorage.prototype.acts.ClearSession,
+	cr.plugins_.Text.prototype.acts.Destroy
 ];};
 
