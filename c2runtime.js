@@ -23223,6 +23223,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.WebStorage.prototype.acts.ClearLocal,
+	cr.plugins_.WebStorage.prototype.acts.RemoveLocal,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.system_object.prototype.cnds.IsGroupActive,
@@ -23239,7 +23241,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.WebStorage.prototype.cnds.CompareKeyNumber,
 	cr.plugins_.Text.prototype.acts.SetVisible,
-	cr.plugins_.WebStorage.prototype.acts.RemoveLocal,
 	cr.plugins_.WebStorage.prototype.acts.ClearSession,
 	cr.plugins_.Text.prototype.acts.Destroy
 ];};
