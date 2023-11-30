@@ -23243,7 +23243,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.video.prototype.cnds.HasEnded,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Text.prototype.acts.SetVisible,
-	cr.plugins_.WebStorage.prototype.acts.ClearSession,
 	cr.plugins_.Text.prototype.acts.Destroy
 ];};
 
